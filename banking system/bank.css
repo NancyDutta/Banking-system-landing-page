@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    position: relative;
+    top: 0px;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.3rem;
+/* color: rgb(19, 26, 68); */
+   color: white; 
+   
+}
+.h-primary{
+    color: rgb(44, 10, 77);
+}
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+    
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+}
+.navbar ul li{
+    list-style: none; 
+
+}
+.navbar ul li a{
+    margin: 3px;
+    padding: 14px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 2px 4px white;
+    font-size: 1.5rem;
+}
+.navbar ul li a:hover{
+    color: darkblue;
+    background-color: rgb(201, 197, 197);
+    border-radius: 34px;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    /* left right  */
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+}
+#home::before{
+    content: "";
+    background:url('../image/1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    
+}
+/* About css */
+.navbars{
+    position: relative;
+    top: 0px;
+}
+.navbars ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 93px;
+    margin-bottom: 46px;
+}
+.navbars ul li{
+    list-style: none; 
+
+}
+.navbars ul li a{
+    margin: 3px;
+    padding: 14px;
+    text-decoration: none;
+    color: black;
+    text-shadow: 3px 2px 4px white;
+    font-size: 1.5rem;
+}
+.navbars ul li a:hover{
+    color: darkblue;
+    background-color: rgb(201, 197, 197);
+    border-radius: 34px;
+    
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+font-size: 1.8rem;
+}
+.offer img{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.loan img{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.customer img{
+    height: 400px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+.head h1{
+    color: rgb(10, 17, 31);
+    margin: 23px;
+    text-shadow: 2px 5px 4px white;
+}
+#box .write{
+    color: rgb(10, 17, 31);
+    margin-bottom: 23px;
+    text-decoration: underline;
+}
+
+
+    
